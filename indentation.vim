@@ -1,0 +1,9 @@
+set wrap
+set shiftround
+set ts=4
+set cindent
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set nosmarttab
+set autoindent
