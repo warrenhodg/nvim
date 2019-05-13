@@ -46,7 +46,7 @@ onoremap p :<c-u>normal! 0f(vi(<cr>
 nnoremap <leader>s :nohlsearch<cr>
 
 "Nerdtree
-nmap <F8> :NERDTree<CR>
+nmap <F8> :NERDTreeToggle<CR>
 
 "Tagbar
 nmap <F9> :TagbarToggle<CR>
