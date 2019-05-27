@@ -5,7 +5,11 @@ call vundle#begin()
     "General plugins
     Plugin 'tpope/vim-fugitive' "Git support
     Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } "Better code completion support
+    Plugin 'Shougo/neosnippet.vim'
+    Plugin 'Shougo/neosnippet-snippets'
+
     Plugin 'w0rp/ale' "Auto linting
+    Plugin 'universal-ctags/ctags'
     Plugin 'majutsushi/tagbar' "Tags in window
     Plugin 'scrooloose/nerdtree' "Menu bar on left
     Plugin 'Xuyuanp/nerdtree-git-plugin' "Git on menu
@@ -17,6 +21,8 @@ call vundle#begin()
     Plugin 'sebdah/vim-delve' "Go debugger
     "Plugin 'terryma/vim-multiple-cursors' "Unstable
     Plugin 'tpope/vim-surround'
+    Plugin 'junegunn/fzf'
+    Plugin 'junegunn/fzf.vim'
 
     "Language plugins
     Plugin 'chr4/nginx.vim' "nginx syntax highlighting
