@@ -1,1 +1,1 @@
-autocmd BufWritePost *.json !jsonlint-cli <afile>
+autocmd BufWritePost *.json !jq . <afile>
