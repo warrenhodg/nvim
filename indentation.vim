@@ -1,9 +1,9 @@
 set wrap
 set shiftround
-set ts=4
+set ts=2
 set cindent
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set nosmarttab
 set autoindent
