@@ -31,6 +31,7 @@ call vundle#begin()
 
     Plugin 'lifepillar/pgsql.vim' "PostgreSQL syntax highlighting
 
+    Plugin 'elzr/vim-json' "JSON syntax highlighting
     Plugin 'fatih/vim-go' "Go support
     Plugin 'stamblerre/gocode'
     "Plugin 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/nvim/symlink.sh' } "Go completion
