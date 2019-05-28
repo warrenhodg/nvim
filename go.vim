@@ -27,6 +27,6 @@ au FileType go nnoremap <leader>rd :DlvTest<cr>
 let g:go_addtags_transform = "camelcase"
 
 if !exists("g:delve_new_command")
-  let g:delve_new_command = "enew"
+  let g:delve_new_command = "new"
 endif
 
