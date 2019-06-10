@@ -23,6 +23,7 @@ au FileType go nmap <leader>gd :GoDef<cr>
 au FileType go nnoremap <leader>aj :GoAddTags<cr>
 au FileType go nnoremap <leader>rm :DlvDebug<cr>
 au FileType go nnoremap <leader>rd :DlvTest<cr>
+au FileType go nnoremap <leader>r :GoRename<cr>
 
 let g:go_addtags_transform = "camelcase"
 
