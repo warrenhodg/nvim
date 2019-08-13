@@ -33,8 +33,8 @@ call vundle#begin()
 
     Plugin 'elzr/vim-json' "JSON syntax highlighting
     Plugin 'fatih/vim-go' "Go support
-    Plugin 'stamblerre/gocode'
-    "Plugin 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/nvim/symlink.sh' } "Go completion
+    "Plugin 'stamblerre/gocode' "mdemsky is faster
+    Plugin 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/nvim/symlink.sh' } "Go completion
     Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make'} "Go auto completion
 
     Plugin 'pangloss/vim-javascript' "JavaScript syntax highlighting
