@@ -12,4 +12,4 @@ source ~/.config/nvim/ale.vim
 source ~/.config/nvim/colors.vim
 source ~/.config/nvim/json.vim
 source ~/.config/nvim/yaml.vim
-source ~/.config/nvim/go.vim
+source ~/.config/nvim/go-coc.vim
