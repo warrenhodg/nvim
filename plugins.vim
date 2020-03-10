@@ -4,9 +4,9 @@ set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
     "General plugins
     Plugin 'tpope/vim-fugitive' "Git support
-    Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } "Better code completion support
-    Plugin 'Shougo/neosnippet.vim'
-    Plugin 'Shougo/neosnippet-snippets'
+    "Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } "Better code completion support
+    "Plugin 'Shougo/neosnippet.vim'
+    "Plugin 'Shougo/neosnippet-snippets'
 
     Plugin 'w0rp/ale' "Auto linting
     Plugin 'universal-ctags/ctags'
@@ -21,8 +21,9 @@ call vundle#begin()
     Plugin 'sebdah/vim-delve' "Go debugger
     "Plugin 'terryma/vim-multiple-cursors' "Unstable
     Plugin 'tpope/vim-surround'
-    Plugin 'junegunn/fzf'
-    Plugin 'junegunn/fzf.vim'
+    "Plugin 'junegunn/fzf'
+    "Plugin 'junegunn/fzf.vim'
+    Plugin 'qpkorr/vim-bufkill'
 
     "Language plugins
     Plugin 'chr4/nginx.vim' "nginx syntax highlighting
@@ -32,12 +33,18 @@ call vundle#begin()
     Plugin 'lifepillar/pgsql.vim' "PostgreSQL syntax highlighting
 
     Plugin 'elzr/vim-json' "JSON syntax highlighting
+
+    "Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make' } "Go auto completion
     Plugin 'fatih/vim-go' "Go support
+    Plugin 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     "Plugin 'stamblerre/gocode' "mdemsky is faster
-    Plugin 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/nvim/symlink.sh' } "Go completion
-    Plugin 'deoplete-plugins/deoplete-go', { 'do': 'make'} "Go auto completion
+    "Plugin 'stamblerre/gocode', { 'rtp': 'nvim/' } "Go completion
+    "Plugin 'mdempsky/gocode', { 'rtp': 'nvim', 'do': '~/.vim/bundle/gocode/nvim/symlink.sh' } "Go completion
+    "Plugin 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.vim/bundle/gocode/nvim/symlink.sh' } "Go completion
 
     Plugin 'pangloss/vim-javascript' "JavaScript syntax highlighting
+
+    Plugin 'google/vim-jsonnet'
 
     "Colorschemes
     Plugin 'NLKNguyen/papercolor-theme'
@@ -45,6 +52,7 @@ call vundle#begin()
     Plugin 'ayu-theme/ayu-vim'
     Plugin 'kaicataldo/material.vim'
     Plugin 'rakr/vim-one'
+    Plugin 'rodjek/vim-puppet'
 call vundle#end()
 
 if has('nvim')
