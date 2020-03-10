@@ -52,7 +52,7 @@ nmap <F8> :NERDTreeToggle<CR>
 nmap <F9> :TagbarToggle<CR>
 
 "Close current buffer
-nmap <leader>c :bp<bar>sp<bar>bn<bar>bd<CR>
+nmap <leader>c :BD<CR>
 
 "Navigation
 nmap <leader>1 <Plug>AirlineSelectTab1
