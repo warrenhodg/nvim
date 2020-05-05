@@ -2,6 +2,8 @@ au VimEnter * NERDTree
 autocmd VimEnter * NERDTree | wincmd p
 
 let NERDTreeMinimalUI = 1
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
 
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
 
